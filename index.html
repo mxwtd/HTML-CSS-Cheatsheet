@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML/CSS Cheatsheet</title>
+  <link rel="stylesheet" href="Resources/style.css"/>
+</head>
+<body class="css-selector">
+  <nav id="navbar">
+      <header class="sidebar_title"></header>
+      <a id="Home"><img class="Intro_logos" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png"></a>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction ↘</li></a></li>
+        <li><a class="nav-link" href="#Basic_Structure">Basic Structure ↘</a></li>
+        <li><a class="nav-link" href="#Attributes">Attributes ↘</a></li>
+        <li><a class="nav-link" href="#CSS_Basics">CSS Basics ↘</a></li>
+        <li><a class="nav-link" href="#Common_CSS">Common CSS Tools ↘</a></li>
+        <li><a class="nav-link" href="#CSS_Selectors">CSS Selectors ↘</a></li>
+       </ul>
+    </nav>
+  <main id="main-doc">
+    <section class="main-section" href="#Home">
+      <header>
+        <h1 class="intro_h1 padding_intro">
+        Welcome!
+        <br>
+        <span class="intro_h2">This is a simple HTML and CSS Cheatsheet.</span>
+        <br>        
+        <span class="intro_h3">Navigate using the side menu shortcuts to find the information you're looking for.</span>
+        </h1>
+      </header>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>HTML stands for <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage and is a fundamental building block of everything on the web, as it is the code that is used to <strong>structure</strong> a web page and its <strong>content</strong>.</p>
+      <p>HTML consists of a series of elements which you use to enclose different parts of the content to make it appear or act a certain way.</p>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section class="main-section" id="Basic_Structure">
+      <header>Basic Structure</header>
+      <p>An <strong>HTML element </strong> is set off from other text in a document by "tags", which consist of the element name surrounded by '<' and '>'.
+      <p>The <strong>name of an element</strong> inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture.</p>
+      <br>
+      <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-small.png" alt="HTML element">
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section class="main-section" id="Attributes">
+      <header>Attributes</header>
+      <p>Attributes contain extra information about the element that you don't want to appear in the actual content. Here, <em>class</em> is the attribute name and <em>editor-note</em> is the attribute value. The <em>class</em> attribute allows you to give the element a non-unique identifier that can be used to target it (and any other elements with the same <em>class</em> value) with style information and other things.</p>
+      <br> 
+      <img class="attribute_img" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png" alt="HTML Attribute">
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section class="main-section" id="CSS_Basics">
+      <header>CSS Basics</header>
+      <ul>
+        <li>CSS (Cascading Style Sheets) is the code that styles web content.</li>
+        <li>Like HTML, CSS is not a programming language. It's not a markup language either. CSS is a style sheet language. </li>
+        <li>CSS is what you use to selectively style HTML elements.</li>
+      </ul>
+      <br>
+      <h2>Selector</h2>
+
+      <p>This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, '< p >' elements). To style a different element, change the selector.</p>
+
+      <h2>Declaration</h2>
+      <p>This is a single rule like <strong>color: red;</strong>. It specifies which of the element's properties you want to style.</p>
+      <br>
+      <h3>Note the other important parts of the syntax:</h3>
+      <ul>  
+        <li>Apart from the selector, each ruleset must be wrapped in curly braces. (`{}`)</li>
+        <li>Within each declaration, you must use a colon (`:`) to separate the property from its value or values.</li>
+        <li>Within each ruleset, you must use a semicolon (`;`) to separate each declaration from the next one.</li>
+      </ul>
+      <br>
+      <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33e853e9-838c-4d3a-9854-a54332e2af49/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221114T122824Z&X-Amz-Expires=86400&X-Amz-Signature=c2b43699c52dc46fa64742baba2450aae84266b60d4ef5e7d62f433e6c95f27d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject" alt="HTML element">
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section class="main-section" id="#Common_CSS">
+      <header>Common CSS Tools</header>
+      <p>Common CSS Tools:</p>
+      <ul>
+        <li><strong>width</strong> : (of an element).</li>
+        <li><strong>background-color</strong> : the color behind an element's content and padding.</li>
+        <li><strong>color</strong> : the color of an element's content (usually text)</li>
+        <li><strong>text-shadow</strong> : sets a drop shadow on the text inside an element.</li>
+        <li><strong>display</strong> : sets the display mode of an element. (keep reading to learn more)</li>
+      </ul>
+    </section> 
+    <br>
+    <hr> 
+    <br>
+    <section class="main-section" id="CSS_Selectors">
+      <header>CSS Selectors</header>
+      <br>
+        <table id="customers">
+          <tr>
+            <th>Selector name</th>
+            <th>What does it select</th>
+          </tr>
+          <tr>
+            <td>Element selector (sometimes called a tag or type selector)</td>
+            <td>All HTML elements of the specified type.</td>          
+          </tr>
+          <tr>
+            <td>ID selector</td>
+            <td>The element on the page with the specified ID. On a given HTML page, each id value should be unique.</td>      
+          </tr>
+          <tr>
+            <td>Class selector</td>
+            <td>The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.</td>            
+          </tr>
+          <tr>
+            <td>Attribute selector</td>
+            <td>The element(s) on the page with the specified attribute.</td>            
+          </tr>
+          <tr>
+            <td>Pseudo-class selector</td>
+            <td>The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)</td>            
+          </tr>
+        </table>
+    </section>
+  
+    
+  </main>
+
+</body>
+
+
+</html>
